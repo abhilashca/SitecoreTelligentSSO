@@ -33,7 +33,7 @@ namespace SC81.Sandbox.Authentication
                 return;
 
 
-            var cookieValue = string.Format("{0}={1}&{2}={3}&{4}={5}", CookieKeyNameForUsername, userName,
+            var cookieValue = string.Format("{0}={1}&{2}={3}&{4}={5}", CookieKeyNameForUsername, userId,
                                                                    CookieKeyNameForEmail, email,
                                                                    CookieKeyNameForDisplayName, displayName);            
 
