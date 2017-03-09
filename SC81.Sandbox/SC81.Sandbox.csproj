@@ -122,7 +122,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Web.config" />
-    <Content Include="App_Config\ConnectionStrings.config" />
     <Content Include="App_Config\Sitecore.config" />
     <None Include="Properties\PublishProfiles\Local Deploy.pubxml" />
     <Content Include="Views\_ViewStart.cshtml" />
